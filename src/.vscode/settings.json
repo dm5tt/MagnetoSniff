@@ -1,0 +1,32 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPath": "/home/had/Code/esp/v5.4.2/esp-idf",
+  "idf.pythonInstallPath": "/usr/bin/python3",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.enableSizeTaskAfterBuildTask": false,
+  "idf.port": "/dev/ttyUSB0",
+  "idf.toolsPath": "/home/had/Code/esp-idf-tools",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "/home/had/Code/esp-idf-tools/tools/esp-clang/esp-18.1.2_20240912/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=/home/had/Code/esp-idf-tools/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
+    "--compile-commands-dir=${workspaceFolder}/build"
+  ],
+  "files.associations": {
+    "esp_event.h": "c",
+    "i2c-test.h": "c",
+    "stdint.h": "c",
+    "i2c.h": "c",
+    "task.h": "c",
+    "signalling.h": "c",
+    "compare": "c",
+    "esp_rom_sys.h": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.currentSetup": "/home/had/Code/esp/v5.4.2/esp-idf"
+}
