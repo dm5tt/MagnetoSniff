@@ -34,7 +34,7 @@ typedef struct
 |---------------|---------------|--------------------------|
 | I²C SDA       | GPIO 47       | BMM350 I²C data          |
 | I²C SCL       | GPIO 21       | BMM350 I²C clock         |
-| Interrupt     | GPIO          | BMM350 data ready (INT)  |
+| Interrupt     | GPIO 01       | BMM350 data ready (INT)  |
 | 3.3V          | —             | Sensor supply voltage    |
 | GND           | —             | Common ground            |
 
